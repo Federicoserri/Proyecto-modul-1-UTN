@@ -104,3 +104,19 @@ img {
   background: none;
   border: none;
 }
+
+.received {
+  background-color: rgb(172, 172, 172);
+  padding: 10px;
+  border-radius: 10px;
+  width: 30%;
+  margin-bottom: 30px;
+}
+
+.send {
+  background-color: lightblue;
+  padding: 10px;
+  border-radius: 10px;
+  width: 30%;
+  margin-bottom: 30px;
+}
