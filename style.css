@@ -3,16 +3,45 @@
   margin: 0;
 }
 
+body {
+  background-color: rgb(238, 236, 236);
+}
+
 .main-bar {
-  display: flex;
+  background-color: #fff;
 }
 
-.chat-header {
-  display: flex;
-  justify-content: space-between;
+.search {
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+  width: 30%;
+  cursor: pointer;
 }
 
-.chat-buttons {
+.button-search {
+  border-radius: 20px;
+}
+
+.sidebar {
+  padding: 40px;
+}
+
+img {
+  width: 50px;
+  border-radius: 30px;
+}
+
+.contact {
   display: flex;
-  justify-content: flex-end;
+  gap: 10px;
+}
+
+.contact-list {
+  padding: 10px;
+}
+
+.status {
+  margin-top: 5px;
 }
