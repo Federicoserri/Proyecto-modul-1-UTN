@@ -7,8 +7,10 @@ body {
   background-color: rgb(238, 236, 236);
 }
 
-.main-bar {
+.all-chat {
   background-color: #fff;
+  display: flex;
+  height: 100vh;
 }
 
 .search {
@@ -16,16 +18,17 @@ body {
   border-radius: 5px;
   padding: 10px;
   margin-right: 10px;
-  width: 30%;
+  width: 100%;
   cursor: pointer;
+  border: 2px solid black;
 }
 
-.button-search {
-  border-radius: 20px;
-}
 
 .sidebar {
   padding: 40px;
+  width: 20%;
+  border-right: 2px solid grey;
+
 }
 
 img {
@@ -44,4 +47,58 @@ img {
 
 .status {
   margin-top: 5px;
+}
+
+.chat-header {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 20px;
+}
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  border-bottom: 2px solid grey;
+}
+
+.chat-buttons {
+  display: flex;
+  margin-right: 50px;
+  gap: 5px;
+
+}
+
+.chat {
+  flex: auto;
+}
+
+.chat-footer {
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.chat-message {
+  background-color: rgb(236, 236, 236);
+  padding: 50px;
+}
+
+.footer {
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid black;
+  width: 100%;
+}
+
+.footer-send {
+  width: auto;
+  font-size: 20px;
+  background: none;
+  border: none;
+  marg
 }
