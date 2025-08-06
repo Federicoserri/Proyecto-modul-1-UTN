@@ -158,11 +158,19 @@ img {
   .sidebar {
     display: none;
   }
+
+  .message {
+    width: 90%;
+  }
 }
 
 /*pantalla para celular*/
 @media (max-width: 480px) {
   .sidebar {
     display: none;
+  }
+
+  .message {
+    width: 90%;
   }
 }
