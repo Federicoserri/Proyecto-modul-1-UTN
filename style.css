@@ -177,6 +177,18 @@ img {
   .message {
     width: 90%;
   }
+
+  .header {
+    display: inline-block;
+  }
+
+  .chat-header {
+    display: inline-block;
+  }
+
+  .chat-buttons {
+    justify-content: center;
+  }
 }
 
 /*pantalla para celular*/
@@ -187,5 +199,17 @@ img {
 
   .message {
     width: 90%;
+  }
+
+  .header {
+    display: inline-block;
+  }
+
+  .chat-header {
+    display: inline-block;
+  }
+
+  .chat-buttons {
+    justify-content: center;
   }
 }
