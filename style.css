@@ -153,6 +153,13 @@ img {
   vertical-align: middle;
 }
 
+.offline-div {
+  background-color: rgb(147, 255, 147);
+  width: 100%;
+  border-radius: 8px;
+  padding: 10px;
+}
+
 /*pantalla para tablet*/
 @media (max-width: 880px) {
   .sidebar {
